@@ -1,0 +1,28 @@
+{
+  "name": "co-coders",
+  "version": "1.0.0",
+  "homepage": "https://github.com/clean-code-projects/co-coders-typescript",
+  "bugs": {
+    "url": "https://github.com/clean-code-projects/co-coders-typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clean-code-projects/co-coders-typescript.git"
+  },
+  "license": "MIT",
+  "author": "Clean Coders",
+  "sideEffects": false,
+  "module": "libm/index.js",
+  "jsnext:main": "libm/index.js",
+  "typings": "libm/index.d.ts",
+  "files": [
+    "libm"
+  ],
+  "scripts": {
+    "clean": "rimraf lib libm .ts",
+    "depcheck": "depcheck"
+  },
+  "engines": {
+    "node": ">= 10"
+  }
+}

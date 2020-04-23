@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "lib",
+    "target": "es2017",
+    "tsBuildInfoFile": ".tsc/lib.buildInfo"
+  }
+}

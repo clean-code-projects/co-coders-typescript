@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/co-coders/tsconfig.libm.json"
+    },
+    {
+      "path": "packages/co-coders-api/tsconfig.lib.json"
+    },
+    {
+      "path": "packages/co-coders-webapp/tsconfig.lib.json"
+    }
+  ]
+}
