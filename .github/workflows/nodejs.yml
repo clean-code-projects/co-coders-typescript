@@ -29,6 +29,7 @@ jobs:
           path: node_modules
           key: ${{ runner.os }}-node-modules-${{ hashFiles('**/yarn.lock') }}
       - run: yarn
+      - run: yarn commitlint-circle
       - run: yarn lint
       - run: yarn build
       - run: yarn depcheck
